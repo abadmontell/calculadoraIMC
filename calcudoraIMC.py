@@ -8,10 +8,10 @@ calcular_otra_persona = True
 while calcular_otra_persona:
       
     # Pedir al usuario que ingrese su nombre completo, edad, altura y peso y que sean guardados en variables
-    nombrePrimero = ""
-    while not nombrePrimero:
+    nombre = ""
+    while not nombre:
         try:
-                nombrePrimero = input("Por favor, ingrese su nombre: ")
+                nombre = input("Por favor, ingrese su nombre: ")
         except ValueError:
                 print("Por favor, ingrese un nombre válido.")
 
